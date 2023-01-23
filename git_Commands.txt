@@ -1,3 +1,15 @@
+delete file -> rm -rf
+
+to see all the hidden file -> ls -al
+
+to see the list -> ls
+
+mkdir ->make dir
+
+cd -> change directory
+
+git
+----------------------------------
 git init 
 initialises the git repo which has .git file-> tracks the changes.
 
@@ -18,12 +30,17 @@ git stash -> after git add should use this to put them back of the staging area.
 
 git stash pop -> to get the changees from the stash area.
 
-delete file -> rm -rf
+git remote add origin master -->connecting local with remote repository, remote ->url,origin->common name for own repo, master ->branch
 
-to see all the hidden file -> ls -al
+git push origin master --> pushing to own repo master branch
 
-to see the list -> ls
+git push origin sriman -->pushing to own repo sriman branch
 
-mkdir ->make dir
+git branch sriman -> creating branch sriman
 
-cd -> change directory
+git checkout sriman -> making head to point to sriman branch, now all the new commits will be in the sriman branch
+
+git remote add upstream <url> connect forked repo to local system
+
+git pull upstream main ->making forked project even with the main project of the original main branch repo. 
+
