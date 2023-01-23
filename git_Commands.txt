@@ -1,0 +1,29 @@
+git init 
+initialises the git repo which has .git file-> tracks the changes.
+
+git status --status of the codebase
+
+git add . -> to add all the files to staging area
+
+git commit -m "" -> to commit changes to local git repo.
+
+touch <name> to create a file
+cat <name> to look into the file
+
+git log -> to see the logs of all the commits.
+
+git reset <Hashnumber from git log> -> to reset the commi and to go back to previous commits.
+
+git stash -> after git add should use this to put them back of the staging area.
+
+git stash pop -> to get the changees from the stash area.
+
+delete file -> rm -rf
+
+to see all the hidden file -> ls -al
+
+to see the list -> ls
+
+mkdir ->make dir
+
+cd -> change directory
